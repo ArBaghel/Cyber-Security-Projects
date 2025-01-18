@@ -1,31 +1,25 @@
 # Cryptography Challenge with Hashcat 🔐  
 
-This project demonstrates practical applications of cryptography and password-cracking techniques. It simulates real-world scenarios where penetration testers or forensic analysts encounter encrypted files.  
+This project shows the practical applications of cryptography and password-cracking techniques. It imitates real-world conditions where penetration testers analyse the encrypted files.  
 
-Special thanks to my mentor, **Snachya Singh**, for guiding me throughout this project! 🙌  
-
----
+Very thankfull to my mentor, **Snachya Singh**, for guiding me throughout this project!  
 
 ## Project Overview  
 
-The objective was to crack passwords for a protected ZIP file and a PDF file using tools like **Hashcat**, **John the Ripper**, and **Perl Strawberry Perl**.  
+The purpose was to crack passwords for a protected ZIP file and a PDF file using tools like **Hashcat**, **John the Ripper**, and **Perl Strawberry Perl**.  
 
 ### Tools Used  
 - **John the Ripper**: To extract hashes from the encrypted files.  
 - **Hashcat**: To crack passwords based on the extracted hashes.  
 - **Perl Strawberry Perl**: For handling PDF file hashes.  
 - **Notepad++**: To fix UTF encoding issues.  
-- **rockyou.txt Wordlist**: A commonly used password list for brute force attacks.  
-
----
+- **rockyou.txt Wordlist**: A commonly used password list for brute force attacks.
 
 ## Steps  
 
 ### Step 1: Initial Setup  
 1. Installed and configured the required tools in a Windows environment.  
 2. Downloaded the password-protected ZIP file from [this link](https://drive.google.com/file/d/1sQ_UdmwvYtGzqejDNu1EfjhHNC6BkCmT/view?usp=sharing).  
-
----
 
 ### Step 2: Cracking the ZIP File Password  
 
@@ -43,7 +37,7 @@ Used **Hashcat** with the following command:
 ```bash  
 hashcat.exe -a 0 -m 13600 hash.txt rockyou.txt --force  
 ```  
-Result: Successfully cracked the ZIP file password in a few minutes!  
+Result: Successfully cracked the ZIP file password!  
 
 ---
 
@@ -76,25 +70,25 @@ Result: Successfully cracked the PDF file password!
 ## Key Learnings  
 - Deepened understanding of cryptographic hashing algorithms.  
 - Gained hands-on experience with tools like **Hashcat** and **John the Ripper**.  
-- Improved problem-solving and persistence in tackling cybersecurity challenges.  
+- Enhancing the problem-solving and persistence in tackling cybersecurity challenges.  
 
 ---
 
 ## Acknowledgements  
-Special thanks to my mentor, **Snacya Singh**, for her guidance and support throughout this project!  
+Special thanks to my mentor, **Snachya Singh**, for her guidance and support for this project!  
 
 ---
 
 ## Connect with Me  
-Feel free to share your feedback or reach out:  
+Feel free to connect and share your feedback or reach out:  
 - [LinkedIn](https://www.linkedin.com/in/aditya-singh-baghel-562832296?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)  
  
 
 ---  
 
 ### Tags  
-`#Cybersecurity` `#Cryptography` `#Hashcat` `#JohnTheRipper` `#LearningJourney`  
+`#Fundamentals of Cybersecurity` `#Cryptography` `#Hashcat` `#JohnTheRipper`  
 
 ```
 
-This README is well-structured and ready for your GitHub repository. It includes all the details from your project and gives proper credit to your mentor. 😊
+
