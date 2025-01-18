@@ -68,9 +68,9 @@ Result: Successfully cracked the PDF file password!
 ---
 
 ## Key Learnings  
-- Deepened understanding of cryptographic hashing algorithms.  
+- Deep understanding of cryptographic hashing algorithms.  
 - Gained hands-on experience with tools like **Hashcat** and **John the Ripper**.  
-- Enhancing the problem-solving and persistence in tackling cybersecurity challenges.  
+- Enhancing the problem-solving and resolutio in address the cybersecurity challenges.  
 
 ---
 
