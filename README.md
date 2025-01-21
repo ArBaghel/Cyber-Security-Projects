@@ -7,10 +7,10 @@ Very thankfull to my mentor , **Sanchay Singh** for his guidance and support thr
  The purpose was to crack password for a zip znd pdf file using tools like *Hashcat* , *John the Ripper* and *Perl Strawberry Perl*.
 
  ### Tools Used
- * **Hashcat**- To crack passwords based on the extracted  hashes.
- * **John the Ripper** - To extract hashes from the encrypted files.
- * **Perl Strawberry Perl** - For handling PDF file hashes.
- * **Notepad++**- To fix UTF encoding issues.
+ * **Hashcat**: To crack passwords based on the extracted  hashes.
+ * **John the Ripper** : To extract hashes from the encrypted files.
+ * **Perl Strawberry Perl** : For handling PDF file hashes.
+ * **Notepad++**: To fix UTF encoding issues.
  * **rockyou.txt Wordlist**: A commonly used password list for brute force attacks.
 
  ### Steps
